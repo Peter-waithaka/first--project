@@ -1,0 +1,43 @@
+html{
+    background-color: grey;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+/* .topnav{
+    background-color: darkblue;
+    width: 100%;
+} */
+.topnav{
+  width: 100vw;
+  background-color: #D6EFFF;
+  display: flex;
+  }
+
+  .topnav ul{
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  /* section-home */
+  .home{
+      background-image: url(./images/jordanbckg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      width: 100%;
+      color: white;
+
+  }
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3);
+    height:86 %;
+    width: 100%;
+    padding-left: 50%;
+    
+  }
